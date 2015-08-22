@@ -1,0 +1,11 @@
+<?php
+session_start();
+define('THEME','default');
+define('IS_PREPARE_STATEMENT','true');
+define('MAX_RESULT_SET',25);
+
+
+R::setup('mysql:host=localhost;dbname=testDB','root','');
+R::exec("SET SESSION time_zone = '+6:00'");
+//R::debug(true);
+?>

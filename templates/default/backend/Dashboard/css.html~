@@ -1,0 +1,13 @@
+{% extends 'default/backend/base.html' %}
+{% block content %}
+ 
+ <title>Introduction to CSS</title>
+  <h1>What is CSS?</h1>
+<p>CSS stands for Cascading Style Sheets.</p>
+
+<li>CSS defines how HTML elements are to be displayed</li>
+<li>Styles were added to HTML 4.0 to solve a problem</li>
+<li>Styles were added to HTML 4.0 to solve a problem</li>
+<li>CSS saves a lot of work</li>
+<li>External Style Sheets are stored in CSS files</li>
+{% endblock %}

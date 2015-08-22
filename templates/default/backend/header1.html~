@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Billing v4.0</title>
+<link rel="stylesheet" type="text/css" href="{{ baseUrl() }}/templates/default/frontend/assets/css/main.css" />
+<link rel="stylesheet" type="text/css" href="{{ baseUrl() }}/templates/default/frontend/assets/css//menu-base.css" />
+<link rel="stylesheet" type="text/css" href="{{ baseUrl() }}/templates/default/frontend/assets/css//menu-topbar.css" />
+<script type="text/javascript" src="{{ baseUrl() }}/templates/default/frontend/assets/js/menu.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td height="100" valign="middle">
+        <div align="center">
+    
+<table width="980" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="680"><img src="{{ baseUrl() }}/templates/default/frontend/assets/img/logo.png"></td>
+    <td width="300" valign="bottom"><div align="right"><strong>Account : 
+        Demo Telecom			
+        </strong></div></td>
+  </tr>
+</table>
+</body>
+</html>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top"><table width="980" border="0" align="center" cellpadding="0" cellspacing="0" class="btable">
+        <tr> 
+          <td height="50" bgcolor="#FFFFFF"><table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td height="36" background="{{ baseUrl() }}/templates/default/frontend/assets/img/menu/bg_button.png" bgcolor="#000000">&nbsp;</td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td height="350" valign="top" bgcolor="#FFFFFF"><table width="950" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td height="30"><div align="left"> 
+                    <h3><strong>Welcome to Billing Soft v4.0</strong></h3>
+                  </div></td>
+              </tr>
+              <tr> 
+                <td height="250">

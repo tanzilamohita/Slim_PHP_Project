@@ -1,0 +1,429 @@
+ body
+{
+	bgcolor: #9F9E9E;
+	background:url(../vtechbd_images/bg_02.gif) fixed;
+	font-family : verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;	
+	color: #333333;
+}
+
+td
+{
+	font-family : verdana;
+	font-size : 12px;	
+	color: #333333;
+}
+
+h1{
+	margin-top:0px;
+	font-size : 18px;
+	color: #3F3D30;
+	margin-bottom:2px;}
+h2{
+	font-family : Arial;
+	border-style: normal;
+	margin-top:0px;
+	font-size : 16px;
+	margin-bottom:0px;}
+h3{
+	font-family : Arial;
+	border-style: normal;
+	margin-top:0px;
+	font-size : 14px;
+	margin-bottom:0px;}
+
+input, textarea, select {
+	border-color: #9A9882;
+    border-style: solid;
+    border-width: 1px;
+}
+
+input.browse {
+    	border:solid 1px #9A9882;
+}
+
+a:link{
+font-family: Tahoma;
+font-weight:normal;
+font-size:12px;
+color: #333333;
+text-decoration:none;
+}
+
+a:visited{
+font-family: Tahoma;
+font-weight:normal;
+font-size:12px;
+color: #232323;
+text-decoration:none;
+}
+
+a:hover{
+font-family: Tahoma;
+font-weight:normal;
+font-size:12px;
+color: #54534B;
+text-decoration:none;
+}
+
+a.footer_link:link{
+font-family: verdana;
+font-weight:bold;
+font-size:11px;
+color: #CECECE;
+text-decoration:none;
+}
+
+a.footer_link:visited{
+font-family: verdana;
+font-weight:bold;
+font-size:11px;
+color: #CECECE;
+text-decoration:none;
+}
+
+a.footer_link:hover{
+font-family: verdana;
+font-weight:bold;
+font-size:11px;
+color: #FFFFFF;
+text-decoration:none;
+}
+
+
+/* Form Header table */
+.form_heading_table{width:90%;BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid;height:25px;}		/* table properties for form heading */
+
+
+
+
+.form_print_table_gridHeader
+{
+	background-color:#999999;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:11px;
+	text-align:center;
+	height:25px;
+}
+ 
+.form_sub_section_table_tableborderonly{
+width:90%; border-left:1px solid #000000;
+border-right:1px solid #000000;
+border-bottom:1px solid #000000;
+border-top:1px none #000000
+}/*border only for the table*/
+
+.form_sub_section_table_td_no_border{
+border: 0px solid #FFFFFF
+}/* properties for the border-less TD */
+
+#menu{
+float:center;
+}
+#menu li{
+list-style-type:none;
+display:block;
+float:left;
+
+}
+#menu .last{
+background:none;
+}
+#menu a{
+font-size:12px;
+color:#272727;
+text-decoration:none;
+}
+#menu a:visited{text-decoration:none}
+#menu a:hover{text-decoration:underline}
+#content{
+width:859px;
+margin:0 auto;
+}
+#info{
+float:left;
+overflow:hidden;
+color:#454545;
+}
+
+#info a{
+font-size:11px;
+color:#454545;
+text-decoration:none
+}
+#leftNavHeader
+{
+	background:#333333;
+	text-align:center;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.redText
+{
+	color:red;
+}
+
+.greenText
+{
+	color:green;
+}
+
+.blueText
+{
+	color:blue;
+}
+
+.blackText
+{
+	color:black;
+}
+.blackTextproject
+{
+	color:black;
+	font-size:9px;
+}
+
+.gridHeader
+{
+	background-color:#999999;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:11px;
+	text-align:center;
+	height:25px;
+}
+
+.gridHeader_2
+{
+	background-color:#999999;
+	color:#FFFFFF;
+	
+	font-size:11px;
+	text-align:center;
+	height:25px;
+}
+
+.printHeader
+{
+	background-color:#000000;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:11px;
+	text-align:center;
+	height:25px;
+}
+
+.gridRowColor
+{
+	background-color:#EEEEEE;
+	height:22px;
+	text-align:center;
+}
+
+.printRowColor
+{
+	background-color:#FFFFFF;
+	height:22px;
+	text-align:center;
+}
+
+.gridRowColorChecked
+{
+	background-color:#D5D5D5;
+	height:22px;
+	text-align:center;
+}
+.pendingStatus
+{
+	background:#99CC00;
+}
+.acceptedStatus
+{
+	background:#66CCFF;
+}
+.rejectedStatus
+{
+	background:#FF0000;
+	color:#FFFFFF;
+}
+.unread
+{
+	color:#309;
+	font-weight:bold;
+}
+.unread a{
+	font-family: Tahoma;
+	font-size:12px;
+	text-decoration:none;
+	color:#309;
+	font-weight:bold;	
+}
+
+.unread a:visited{
+	font-family: Tahoma;
+	font-size:12px;
+	color: #0099FF;
+	text-decoration:none;
+}
+
+.unread a:hover{
+	font-family: Tahoma;
+	font-size:12px;
+	color: #0762E9;
+	text-decoration:none;
+}
+.read
+{
+	color:#309;
+	font-weight:normal;
+}
+
+.btable_2 td{
+	font-family : Arial;
+	font-size : 12px;
+	font-weight:bold;	
+	color: #333333;
+	BORDER-TOP: #93917D 1px solid;
+	BORDER-BOTTOM: 	#93917D 1px solid;
+	BORDER-RIGHT: #93917D 1px solid;
+}
+
+.btable_1 td{
+BORDER-TOP: #9A9882 1px solid;
+BORDER-BOTTOM: 	#9A9882 1px solid;
+BORDER-RIGHT: #9A9882 1px solid;
+}
+.btable_3 td{
+BORDER-TOP: #FFFFFF 1px solid;
+BORDER-BOTTOM: 	#FFFFFF 1px solid;
+BORDER-RIGHT: #FFFFFF 1px solid;
+}
+.btable_4 td{
+BORDER-TOP: #9A9882 1px solid;
+BORDER-BOTTOM: 	#9A9882 1px solid;
+BORDER-RIGHT: #9A9882 1px solid;
+BORDER-LEFT: #9A9882 1px solid;
+}
+  
+.initial { background-color: #FFFFFF}
+.normal { background-color: #FFFFFF}
+.highlight { background-color: #DBDBDB }
+
+.btable {
+    border-color: #9A9882;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.due {
+	color:#FF0000;
+	font-weight:bold;
+}
+
+.not_due {
+	color:#0066FF;
+	font-weight:bold;
+}
+/* ######### Drop Down ULs CSS ######### */
+
+
+.ddsubmenustyle, .ddsubmenustyle ul{ /*topmost and sub ULs, respectively*/
+font: normal 13px Verdana;
+margin: 0;
+padding: 0;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+background: white;
+border: 1px solid black;
+border-bottom-width: 0;
+visibility: hidden;
+z-index: 100;
+}
+
+.ddsubmenustyle li a{
+display: block;
+width: 130px; /*width of menu (not including side paddings)*/
+color: black;
+background-color: lightyellow;
+text-decoration: none;
+padding: 7px 10px;
+border-bottom: 1px solid black;
+}
+
+* html .ddsubmenustyle li{ /*IE6 CSS hack*/
+display: inline-block;
+width: 130px; /*width of menu (include side paddings of LI A*/
+}
+
+.ddsubmenustyle li a:hover{
+background-color: #D2D1CC;
+color: black	;
+}
+
+/* ######### Neutral CSS  ######### */
+
+.downarrowpointer{ /*CSS for "down" arrow image added to top menu items*/
+padding-left: 4px;
+border: 0;
+}
+
+.rightarrowpointer{ /*CSS for "right" arrow image added to drop down menu items*/
+position: absolute;
+padding-top: 3px;
+left: 100px;
+border: 0;
+}
+
+.ddiframeshim{
+position: absolute;
+z-index: 500;
+background: transparent;
+border-width: 0;
+width: 0;
+height: 0;
+display: block;
+}
+/* ######### Matt Black Strip Main Menu Bar CSS ######### */
+
+.mattblackmenu ul{
+margin: 0;
+padding: 0;
+font: bold 12px Verdana;
+list-style-type: none;
+/*background: #414141;*/
+overflow: hidden;
+width: 100%;
+}
+
+.mattblackmenu li{
+display: inline;
+margin: 0;
+}
+
+.mattblackmenu li a{
+float: left;
+display: block;
+text-decoration: none;
+margin: 0;
+padding: 10px 8px; /*padding inside each tab*/
+color: white;
+}
+
+.mattblackmenu li a:visited{
+color: white;
+}
+
+.mattblackmenu li a:hover{
+font: Verdana;
+color: #4AB4F4;
+/*background: #0F67BB;*/ /*background of tabs for hover state */
+}
+
+.mattblackmenu a.selected{
+font: Verdana;
+color: #4AB4F4;
+/*background: #0F67BB;*/ /*background of tab with "selected" class assigned to its LI */
+}

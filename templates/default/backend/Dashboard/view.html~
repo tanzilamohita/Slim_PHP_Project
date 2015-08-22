@@ -1,0 +1,7 @@
+{% extends 'default/backend/base.html' %}
+{% block content %}
+ 
+ <h3>Welcome {{username}}</h3>
+  <p>Full Stack is all about Programming, Science & Technology.</p>
+
+{% endblock %}

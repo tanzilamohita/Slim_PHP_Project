@@ -1,0 +1,14 @@
+{% extends 'default/backend/base.html' %}
+{% block content %}
+ 
+ <title>Introduction to JavaScript</title>
+  <h1>What is JavaScript?</h1>
+<p>JavaScript is the most popular programming language in the world. </p>
+
+<li>JavaScript is the programming language of HTML and the Web.</li>
+<li>JavaScript to program the behavior of web pages.</li>
+<li>An object-oriented computer programming language commonly used to create interactive effects within web browsers.</li>
+<li>Each HTML tag describes different document content</li>
+
+
+{% endblock %}

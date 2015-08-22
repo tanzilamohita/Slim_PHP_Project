@@ -1,0 +1,99 @@
+==========================
+Framework Documenation
+==========================
+Config
+data
+library - Own Library
+logs    - Keep Logs
+module  - All module
+vendor  - Other Library
+composer.json
+index.php
+
+
+How to create Theme
+==========================
+templates/your_theme_name/frontend 
+
+
+templates/your_theme_name/backend  
+	flexiload/add.html
+	base.html
+	header.html
+	footer.html
+
+	how to access this templete : u(flexiload.add)
+
+
+
+
+
+
+
+
+How to enable module
+==========================
+index.php 
+module('enable')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#How to create modile
+Folder Structure of module:
+ 1.flexiload_api.php 
+ 2.flexiload_route.php
+ 3.flexiload_config.php
+ 4.flexiload_library.php
+ 5.flexiload_interface.php
+
+========================================================================
+flexiload_api
+========================================================================
+All the thinks will be checked & return will be provideded in json format, it may be in another server too.we won't let our people know about the direct access of this url.
+
+ 
+
+ create(auth_token,csrf_token,val);
+ read(auth_token,csrf_token);
+ update(auth_token,csrf_token);
+ delete(auth_token,csrf_token);
+ search(auth_token,csrf_token);
+
+
+============================================================================
+flexiload_route
+=============================================================================
+This fill will display everythings
+
+
+   - showCreateForm   - show create form
+   - showConfirmForm  - show confirm Form
+   - Showlist         - Display list with databox & other information
+   - showEditForm     - Dispaly Edit Form 
+   - showDetails      - show Deteails of an record
+   - update           - call flexiload_controller possessApi(update()) return json_data
+   - search           - call flexiload_controller search() return json_data
+   - finallysave      - call flexiload_controller create() retirn json_date 
+  	
+
+==============================================================================
+ fleixload_library
+==============================================================================
+All the require class should be in this folder
+
+
+

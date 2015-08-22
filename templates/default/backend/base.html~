@@ -1,0 +1,10 @@
+{% include 'default/backend/header.html' %}
+{% include 'default/backend/menu.html' %}
+{% block content %}{% endblock %}
+
+
+
+
+
+{% include 'default/backend/footer.html' %}
+
